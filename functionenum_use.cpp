@@ -21,7 +21,7 @@ int main(){
     player player1, player2;
     
     cout << "Player 1, enter your choice (rock/paper/scissors): ";
-    cin >> input1;
+    cin >> input1; //in c++ you can directlty put up string 
     cout << "Player 2, enter your choice (rock/paper/scissors): ";
     cin >> input2;
     
