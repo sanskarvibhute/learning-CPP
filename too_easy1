@@ -17,6 +17,16 @@ int main(){
     name2[3]= '\0';
     cout<<"Here are first 3 character of my name; ";
     cout<< name2 << endl;
+
+    const int ArSize = 20;
+    char name[ArSize];
+    char dessert[ArSize];
+    cout<< "Enter your name:"<<endl;
+    cin.getline(name, ArSize);
+    cout<< "enter fevourate dessert "<<endl;
+    cin.getline(dessert, ArSize);
+    cout<<"I have some Delicious " <<dessert;
+    cout<<"for you," << name << endl;
     
     return 0;
 }
