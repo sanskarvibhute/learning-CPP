@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+    const int size =15;
+    char name1[size]; 
+    char name2[size] = "c++owboy";
+    
+    cout<< "howdy I'm "<< name2;
+    cout<< "! What's your name ? \n "<< name2 << endl;
+    cin>> name1;
+    cout << "well, "<< name1<<",your namae has ";
+    cout << strlen(name1) << "letters and is stored\n";
+    cout << "in array of " << sizeof(name1)<< "bytes.\n";
+    cout << "your initial is  " << name1[0] <<endl;
+    name2[3]= '\0';
+    cout<<"Here are first 3 character of my name; ";
+    cout<< name2 << endl;
+    
+    return 0;
+}
